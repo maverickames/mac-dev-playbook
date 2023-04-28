@@ -13,10 +13,10 @@ dockitems_remove:
   - Podcasts
   - 'App Store'
 
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+dockitems_persist: 
+- name: "VS Code"
+  path: "/Applications/Visual Studio Code.app/"
+  pos: 5
 
 # configure_sudoers: false
 # sudoers_custom_config: ''
