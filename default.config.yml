@@ -12,6 +12,15 @@ dockitems_remove:
   - TV
   - Podcasts
   - 'App Store'
+  - News
+  - Music
+  - FaceTime
+  - Reminders
+  - Contacts
+  - Calendar
+  - Photos
+  - Maps
+  - Mail
 
 dockitems_persist: 
 - name: "VS Code"
