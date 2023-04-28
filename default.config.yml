@@ -18,7 +18,7 @@ dockitems_persist:
   path: "/Applications/Visual Studio Code.app/"
   pos: 5
 
-# configure_sudoers: false
+configure_sudoers: false
 # sudoers_custom_config: ''
 # Example:
 # sudoers_custom_config: |
