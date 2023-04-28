@@ -5,7 +5,6 @@ configure_dotfiles: false
 configure_terminal: false
 configure_osx: false
 
-# Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove: 
   - Launchpad
@@ -21,6 +20,12 @@ dockitems_remove:
   - Photos
   - Maps
   - Mail
+  - Messages
+  - Notes
+  - Keynote
+  - Numbers
+  - Pages
+  - App Store
 
 dockitems_persist: 
 - name: "VS Code"
@@ -55,18 +60,11 @@ homebrew_installed_packages:
   - postgresql
   - sqlite
   - redis
-  # - ansible # Installed via Pip.
-  # - autoconf
-  # - bash-completion
-  # - doxygen
-  # - gettext
-  # - gifsicle
-  # - git
-  # - github/gh/gh
   - go
   - iperf
   - nmap
   - wget
+  - cmake
 
 homebrew_taps:
   - homebrew/core
@@ -83,9 +81,13 @@ homebrew_cask_apps:
   - slack
   - sublime-text
   - visual-studio-code
+  - dockutil
+  - openvpn-connect
+  - sublime-text
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 497799835, name: "Xcode" }
 mas_email: ""
 mas_password: ""
 
