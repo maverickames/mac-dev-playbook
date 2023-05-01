@@ -65,6 +65,15 @@ homebrew_installed_packages:
   - nmap
   - wget
   - cmake
+  - tldr
+  - awscli
+  - automake
+  - terraform
+  - gdb
+  - ssh-copy-id
+  - rust
+  - rustup-init
+  - openssh
 
 homebrew_taps:
   - homebrew/core
@@ -84,6 +93,7 @@ homebrew_cask_apps:
   - dockutil
   - openvpn-connect
   - sublime-text
+  - cheatsheet
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
